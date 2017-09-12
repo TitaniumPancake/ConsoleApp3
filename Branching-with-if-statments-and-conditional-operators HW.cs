@@ -42,7 +42,8 @@ namespace ConsoleApp3
 
 
             string message = (userValue == "1") ? "boat" : "strand of lint";
-            Console.WriteLine("You won a {0}", message, userValue);
+            Console.WriteLine("You won a {0}", message);
+            //lots can be inserted after here         ^
 
             Console.ReadLine();
         }
